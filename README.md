@@ -1,5 +1,33 @@
 
 # Form Builder
+form-builder/
+├─ backend/
+│  ├─ uploads/                 # created automatically for uploaded images
+│  ├─ models/
+│  │  ├─ Form.js
+│  │  └─ Response.js
+│  ├─ routes/
+│  │  ├─ forms.js
+│  │  └─ upload.js
+│  ├─ .env.example
+│  ├─ server.js
+│  └─ package.json
+└─ frontend/
+   ├─ package.json
+   ├─ tailwind.config.js
+   ├─ postcss.config.js
+   ├─ public/
+   │  └─ index.html
+   └─ src/
+      ├─ index.js
+      ├─ index.css
+      ├─ api.js
+      ├─ App.jsx
+      └─ components/
+         ├─ FormEditor.jsx
+         ├─ QuestionEditor.jsx
+         ├─ FormPreview.jsx
+         └─ FormFill.jsx
 
 ## Tech Stack
 - React (Frontend)
